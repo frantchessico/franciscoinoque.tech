@@ -176,46 +176,46 @@ export interface Project {
 export const projects: Project[] = [
   {
     title: "Zogo",
-    description: "Zogo is a custom validation library for Go that allows you to define and apply various validation rules to your data. It is inspired by Zod's zogo.",
+    description: "Zogo é uma biblioteca de validação personalizada para Go que permite definir e aplicar várias regras de validação aos seus dados. É inspirado no zogo de Zod.",
     link: "https://github.com/frantchessico/zogo",
   },
   {
-    title: "Country Dialing Code API With GoLang",
-    description: "This simple Go (Golang) API provides information about countries, including their names, dialing codes, and country codes. It reads this information from a JSON file and exposes an endpoint to retrieve these data.",
+    title: "API de código de discagem de país em GoLang",
+    description: "Esta API Go (Golang) simples fornece informações sobre países, incluindo seus nomes, códigos de discagem e códigos de país. Ele lê essas informações de um arquivo JSON e expõe um endpoint para recuperar esses dados.",
     link: "https://github.com/frantchessico/countries-with-dials-go",
   },
   {
-    title: "Country Dialing Code API With Python",
-    description: "This FastAPI project provides information about countries, including their names, dialing codes, and country codes. It reads this information from a JSON file and exposes an endpoint to retrieve these data.",
+    title: "API de código de discagem de país em Python",
+    description: "Este projeto FastAPI fornece informações sobre países, incluindo seus nomes, códigos de discagem e códigos de país. Ele lê essas informações de um arquivo JSON e expõe um endpoint para recuperar esses dados.",
     link: "https://github.com/frantchessico/countries-with-dialing-code-python",
   },
   {
-    title: "Nodejs Auth API",
-    description: "Welcome to the i auth API in Nodejs. This API provides a comprehensive set of functionality for user management, authentication, email verification and password reset.",
+    title: "API de Autenticação em Nodejs",
+    description: "Bem-vindo à API i auth em Nodejs. Esta API fornece um conjunto abrangente de funcionalidades para gerenciamento de usuários, autenticação, verificação de e-mail e redefinição de senha.",
     link: "https://github.com/frantchessico/nodejs-auth-api",
   },
   {
-    title: "Stripe Payment API in Go",
-    description: "This is an example of a Go API that allows you to create a payment intent with Stripe. The API is configured to accept POST requests and responds with details about the created payment intent.",
+    title: "API de pagamento Stripe em Go",
+    description: "Este é um exemplo de API Go que permite criar uma intenção de pagamento com Stripe. A API está configurada para aceitar solicitações POST e responde com detalhes sobre a intenção de pagamento criada.",
     link: "https://github.com/frantchessico/stripe-payment-with-go",
   },
   {
-    title: "Stripe Payment API with Python",
-    description: "This is an example of a FastAPI-based API in Python that allows you to create a payment intent with Stripe and process payments. The API is configured to accept POST requests and respond with details about the created payment intent or payment processing status.",
+    title: "API de pagamento Stripe em Python",
+    description: "Este é um exemplo de API baseada em FastAPI em Python que permite criar uma intenção de pagamento com Stripe e processar pagamentos. A API está configurada para aceitar solicitações POST e responder com detalhes sobre a intenção de pagamento criada ou o status de processamento do pagamento.",
     link: "https://github.com/frantchessico/stripe-payment-with-python",
   },
-
   {
-    title: "PayPal Payment API with Python",
-    description: "This is an example of a FastAPI-based API in Python that allows you to create and execute PayPal payments. The API is configured to accept POST requests and interact with the PayPal API for payment processing.",
+    title: "API de pagamento do PayPal em GoLang",
+    description: "Este é um exemplo de API baseada em Go que permite criar e executar pagamentos do PayPal. A API interage com a API do PayPal para processamento de pagamentos.",
+    link: "https://github.com/frantchessico/paypal-payment-with-go",
+  },
+  {
+    title: "API de pagamento PayPal em Python",
+    description: "Este é um exemplo de API baseada em FastAPI em Python que permite criar e executar pagamentos PayPal. A API está configurada para aceitar solicitações POST e interagir com a API do PayPal para processamento de pagamentos.",
     link: "https://github.com/frantchessico/paypal-payment-with-python",
   },
 
-  {
-    title: "PayPal Payment API with Go",
-    description: "This is an example of a Go-based API that allows you to create and execute PayPal payments. The API interacts with the PayPal API for payment processing.",
-    link: "https://github.com/frantchessico/paypal-payment-with-go",
-  },
+  
 ];
 
 export interface WorkExperience {
@@ -261,20 +261,20 @@ export const workExperiences: WorkExperience[] = [
 export const aboutYou = {
   name: "Francisco Inoque",
   description:
-    "👨‍💻 Backend Developer with over 6 years of programming experience. 🚀 Specialized in Node.js, Go, and Python.",
-  yearsOfExperience: "6 years",
-  location: "Mozambique",
+    "👨‍💻 Desenvolvedor Backend com mais de 6 anos de experiência em programação. 🚀 Especializado em Node.js, Go e Python.",
+  yearsOfExperience: "6 anos",
+  location: "Moçambique",
   email: "hi@franciscoinoque.tech",
 };
 
 export const logoText = "@frantchessico";
 
 export const marketingHeadlines = {
-  mainHeadline: "I'm Backend Software Developer",
-  subHeadline: "My tech journey has been exciting, and I'm eager to share a bit more about myself.",
+  mainHeadline: "Sou Desenvolvedor de Software Back-end",
+  subHeadline: "Minha jornada tecnológica tem sido emocionante e estou ansioso para compartilhar um pouco mais sobre mim.",
 };
 
 export const websiteMetadata = {
-  title: "Francisco Inoque | Backend Developer",
-  description: "👋 Hey, Random Person here. Welcome to my portflio/blog.",
+  title: "Francisco Inoque | Desenvolvedor Back-end",
+  description: "👋 Olá! Bem vindo ao meu portfólio/blog.",
 };

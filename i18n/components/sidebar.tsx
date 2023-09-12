@@ -1,5 +1,5 @@
-import { aboutYou } from "@/lib/data";
-import ActionButton from "./action-button";
+import { aboutYou } from "@/i18n/lib/data";
+
 
 export default function Sidebar() {
   return (
