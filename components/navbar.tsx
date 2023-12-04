@@ -38,13 +38,23 @@ export default function Navbar() {
           <span className="hidden md:block ml-2">Projects</span>
         </Button>
         <Button
-          onClick={() => navigateTo("/#blog")}
+          
           variant="outline"
           size="sm"
           className="ml-auto h-8"
+          
         >
           <Briefcase className=" h-4 w-4" />
+          <Link
+          
+
+
+          
+          target="_blank" href={"https://blog.franciscoinoque.tech/"}        >
+          
           <span className="hidden md:block ml-2">Blog</span>
+        </Link>
+          
         </Button>
         <Button
           onClick={() => navigateTo("/#contact")}
