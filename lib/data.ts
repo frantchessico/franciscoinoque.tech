@@ -31,7 +31,7 @@ import {
   SiAngular
 } from "react-icons/si";
 import axios from 'axios'
-import { BiLogoPostgresql } from "react-icons/bi";
+import { BiLogoPostgresql, BiLogoJava } from "react-icons/bi";
 
 
 export const skills = [
@@ -46,6 +46,10 @@ export const skills = [
   {
     icon: SiPython,
     text: "Python",
+  },
+  {
+    icon: BiLogoJava,
+    text: "Java",
   },
   {
     icon: SiJavascript,
@@ -267,7 +271,7 @@ export const projects: Project[] = [
 export const aboutYou = {
   name: "Francisco Inoque",
   description:
-    "👨‍💻 Backend Developer with over 6 years of programming experience. 🚀 Specialized in Node.js, Go, and Python.",
+    "👨‍💻 Backend Developer with over 6 years of programming experience. 🚀 Specialized in Node.js, Go,Python and Java.",
   yearsOfExperience: "6 years",
   location: "Mozambique",
   email: "hi@franciscoinoque.tech",
@@ -290,6 +294,7 @@ export const stacktechs = [
   { key: 'golang', name: 'Golang' },
   { key: 'node', name: 'Node' },
   { key: 'python', name: 'Python' },
+  { key: 'java', name: 'Java' },
   { key: 'fastapi', name: 'FastAPI' },
   { key: 'express', name: 'Express' },
   { key: 'fastify', name: 'Fastify' },
